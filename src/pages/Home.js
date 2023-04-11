@@ -6,6 +6,11 @@ import ProductCard from '../components/ProductCard';
 import SpecialProduct from '../components/SpecialProduct';
 import Container from '../components/Container';
 import { services } from '../utils/Data';
+import catbanner1 from "../images/catbanner-01.jpg"
+import catbanner2 from "../images/catbanner-02.jpg"
+import catbanner3 from "../images/catbanner-03.jpg"
+import catbanner4 from "../images/catbanner-04.jpg"
+
 
 const Home = () => {
   return (
@@ -26,7 +31,7 @@ const Home = () => {
         <div className='col-6'>
           <div className='d-flex flex-wrap justify-content-between align-items-center '>
           <div className="small-banner position-relative p-2">
-            <img src="images/catbanner-01.jpg" className='img-fluid rounded-3' alt="catbanner" />
+            <img src={catbanner1} className='img-fluid rounded-3' alt="catbanner" />
          
           <div className='small-banner-content position-absolute'>
              <h4>BEST SALE</h4>
@@ -36,7 +41,7 @@ const Home = () => {
           </div>
 
           <div className="small-banner position-relative p-2">
-            <img src="images/catbanner-02.jpg" className='img-fluid rounded-3' alt="catbanner" />
+            <img src={catbanner2} className='img-fluid rounded-3' alt="catbanner" />
          
           <div className='small-banner-content position-absolute'>
              <h4>NEW ARRAIVAL</h4>
@@ -45,7 +50,7 @@ const Home = () => {
           </div>
           </div>
           <div className="small-banner position-relative p-2">
-            <img src="images/catbanner-03.jpg" className='img-fluid rounded-3' alt="catbanner" />
+            <img src={catbanner3} className='img-fluid rounded-3' alt="catbanner" />
          
           <div className='small-banner-content position-absolute'>
              <h4>15% OFF</h4>
@@ -54,7 +59,7 @@ const Home = () => {
           </div>
           </div>
           <div className="small-banner position-relative p-2">
-            <img src="images/catbanner-04.jpg" className='img-fluid rounded-3' alt="catbanner" />
+            <img src={catbanner4} className='img-fluid rounded-3' alt="catbanner" />
          
           <div className='small-banner-content position-absolute'>
              <h4>FREE ENGRAVING</h4>
